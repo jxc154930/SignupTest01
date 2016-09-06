@@ -1,0 +1,109 @@
+.SignUp{
+	position: absolute;
+	width:480px;
+	height: 720px;
+	right:0px;
+	
+}
+
+.SignUp .info{
+	width: parent;
+}
+
+.SignUp #heading{
+	position:relative;
+	color:black;
+	font-family:verdana;
+	font-size: 24px;
+
+}
+
+.SignUp #firstName{
+	position: relative;
+	display:inline-block;
+}
+
+.SignUp #firstName input{
+	position:relative;
+	top: 10px;
+	font-size: 24px;
+	width:235px;
+	height:48px;
+	border: black solid 1.5px;
+	border-radius:5px;
+	
+}
+.SignUp #lastName{
+	position: relative;
+	display:inline-block;
+}
+
+.SignUp #lastName input{
+	position:relative;
+	top: 10px;
+	font-size: 24px;
+	width: 235px;
+	height:48px;
+	border: black solid 1.5px;
+	border-radius:5px;
+	
+}
+.SignUp #password{
+	position: relative;
+}
+
+.SignUp #password input{
+	position:relative;
+	top: 10px;
+	font-size: 24px;
+	width: 476px;
+	height:48px;
+	border: black solid 1.5px;
+	border-radius:5px;
+}
+.SignUp #passcheck{
+	position: relative;
+}
+
+.SignUp #passcheck input{
+	position:relative;
+	top: 10px;
+	font-size: 24px;
+	width: 476px;
+	height:48px;
+	border: black solid 1.5px;
+	border-radius:5px;
+}
+
+.SignUp #account{
+	position: relative;
+}
+
+.SignUp #account input{
+	position:relative;
+	top: 10px;
+	font-size: 24px;
+	width: 476px;
+	height:48px;
+	border: black solid 1.5px;
+	border-radius:5px;
+	
+}
+
+.SignUp #submit input{
+	position:absolute;
+	width: 100px;
+	color:white;
+	font-size: 14px;
+	height: 24px;
+	background-color:#D3D3D3;
+	border: black solid 1.5px;
+	border-radius: 5px;
+	margin-top:20px;
+}
+
+.SignUp #submit :hover{
+	text-decoration: underline;
+	
+}
+

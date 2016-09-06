@@ -1,0 +1,106 @@
+@CHARSET "UTF-8";
+.header {
+	height: 120px;
+	width: 100%;
+	background-color: #4c4cff;
+}
+.header .loginContainer{
+	position:absolute;
+	width: 100%;
+	min-width: 1080px;
+}
+
+.header .loginTab{
+	position:absolute;
+	float:right;
+	width:660px;
+	top:48px;
+	right: 0;
+}
+
+.header #logo{
+	position: absolute;
+	width: 300px;
+	top: 48px;
+	left:120px;
+	font-size: 35px;
+	color: white;
+	font-family: verdana;
+}
+
+.header #login {
+	position: absolute;
+	top:0;
+	right: 348px;
+	padding-left:10px;
+	width: 276px;
+	color:white;
+	font-size: 18px;
+	float: right;
+	
+}
+.header #login input{
+	height: 24px;
+	font-size:14px;		
+}
+.header #password {
+	top: 0;
+	position: absolute;
+	right: 84px;
+	width: 276px;
+	color:white;
+	font-size: 18px;
+	float: right;
+}
+.header #password input{
+	height: 24px;
+	font-size:14px;		
+}
+.header #submit {
+	top: 0;
+	position:absolute;
+	right: 90px;
+	height:100%;
+	float:right;
+}
+.header #submit input{
+	position: absolute;
+	text-align:center;
+	background-color: #7f7fff;
+	color:white;
+	border: #00004c solid 1.5px;
+	border-radius:4px;
+	width:48px;
+	height:24px;
+	font-family:Verdana;
+	font-size:12px;
+	
+}
+.header #submit input:hover{
+	background-color:#4c4cff;
+	cursor: pointer;
+	
+}
+.header #Forgot {
+	
+	position: absolute;
+	right: 183px;
+	top: 33px;
+	color: white;
+	overflow: auto;	
+	float:right;
+	background-color:initial;
+	
+	
+}
+.header #Forgot input{
+	background-color: initial;
+	color: #b2b2b2;
+	font-size:12px;
+	border:0;
+}
+.header #Forgot input:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	
+}

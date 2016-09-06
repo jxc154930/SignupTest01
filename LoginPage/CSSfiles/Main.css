@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+html, body {
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+#bod01{
+	position:absolute;
+	top:120px;
+	background:#999999;
+	height: 1000px;
+	width: 100%;
+	
+}
